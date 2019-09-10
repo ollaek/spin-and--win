@@ -11,6 +11,8 @@
     />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"/>
     <link rel="stylesheet" href="../src/Content/style.css">
     <link rel="apple-touch-icon" href="logo192.png" />
    
@@ -33,33 +35,21 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     
-    <div class="preloader-wrap">
-      <div class="percentage" id="precent"> <span>Loading</span> </div>
-      <div class="loader">
-          <div class="trackbar">
-              <div class="loadbar"></div>
-          </div>
-          <div class="glow"></div>
-          <p style="color: #fff;text-align: center;margin-top: 7px;font-size: 21px;position: relative;z-index: 999999999;font-family: sans-serif;">Please wait</p>
-      </div>
+    <div id="loader"></div>
+    <div class="main-outer">
 
-  </div>
+        <div>
+            <div class="outer">
+              <div id="root"></div>
+            </div>
+            <footer>
+                <a href="#">
+                    <img src="../src/Content/img/dsquares-logo.png" alt="Dsquares">
+                </a>
+            </footer>
+        </div>
 
-
-  <div class="main-outer">
-
-      <div>
-          <div class="outer">
-            <div id="root"></div>
-          </div>
-          <footer>
-              <a href="#">
-                  <img src="../src/Content/img/dsquares-logo.png" alt="Dsquares">
-              </a>
-          </footer>
-      </div>
-
-  </div>
+    </div>
   </body>
 
   
